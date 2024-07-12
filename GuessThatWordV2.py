@@ -34,7 +34,7 @@ def main():
                 time.sleep(0.6) 
                 print(css(f"\n   You guessed '{word}', correct!\n", 'cyan'))
                 time.sleep(2.5)
-                sys('clear')
+                sys('cls')
                 return start_menu()
                 break
                 
@@ -42,7 +42,7 @@ def main():
             elif try_i == 'g':
                 print(css(f"\n   The word was {word}\n", 'light_red')) 
                 time.sleep(2.3)
-                sys('clear')
+                sys('cls')
                 return start_menu()
                 break
     
@@ -66,7 +66,7 @@ def main():
     elif word != word.lower():
         text = "The word is capitalized"
     if hint == hint: 
-        sys('clear')
+        sys('cls')
         guess()
       
 def start_menu():
@@ -86,15 +86,15 @@ def start_menu():
         option_choose = input('\n:')
     
         if option_choose == '1':
-            sys('clear')
+            sys('cls')
             main()
             break
         elif option_choose == '2':
-            sys('clear')
+            sys('cls')
             return start_menu()
         elif option_choose == '3':
             break
         else:
-            sys('clear')
+            sys('cls')
             return start_menu()
 start_menu()
