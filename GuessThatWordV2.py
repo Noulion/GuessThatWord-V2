@@ -3,11 +3,8 @@ import random
 from os import system as sys
 from termcolor import colored as css
 
-
-
 def title():
-
-    
+ 
     print(css(f"""
       ╮╭┻┻╮╭┻┻╮╭▕╮╲
      ▕╯┃╭╮┃┃╭╮┃╰▕╯╭▏
@@ -145,8 +142,6 @@ def Ai_game():
             print(css(f"\n  [{trace}] ({wordLenght}) letter word,  {diffculty[2]}\n  {text}", 'yellow', attrs=['bold']), '\n\n\n')
             Ai_guess(word)
 
-        
-
     words = ["Astronaut",
             "Molecule",
             "Apple",
@@ -179,16 +174,12 @@ def Ai_game():
         Ai_choose(randomizer)
 
 def main():
-    
-    
+
     def guess():
         title()
         print(css('  hints: ', 'white', attrs=['bold'])+(css(hint, 'light_green', attrs=['bold'])))
         print(css(f"\n  [{trace}] ({wordLenght}) letter word,\n  {text}", 'yellow', attrs=['bold']), '\n\n\n')
         
-        
-        
-
         while True:
             print(css("  [Give Up?, type g]", 'white'))
     
@@ -230,10 +221,7 @@ def main():
         text = "The word is capitalized"
     if hint == hint: 
         sys('cls')
-        guess()
-    
-
-    
+        guess()    
 
 def start_menu():
     title()
