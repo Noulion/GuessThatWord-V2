@@ -167,7 +167,6 @@ def Ai_game():
             break
     randomizer = randomizer
     print(randomizer)
-    word = randomizer
     
     if randomizer == randomizer:
         sys('cls')
@@ -242,11 +241,9 @@ def start_menu():
         if option_choose == '1':
             sys('cls')
             main()
-            break
         elif option_choose == '2':
             sys('cls')
             return Ai_game()
-            break
         elif option_choose == '3':
             break
         else:
