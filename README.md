@@ -9,21 +9,17 @@ A small indie game where the goal is to guess the word given by the other player
 
 ## Getting Started
 
-To play the game, clone the repository and run the `GuessThatWordV2.py` script using Python.
+To play the game, clone the repository and run the `GuessThatWordV2_Runfile.py` script using Python.
 
 ```bash
 git clone https://github.com/Noulion/GuessThatWord-V2.git
 cd GuessThatWord-V2
-python GuessThatWordV2.py
+python GuessThatWordV2_Runfile.py
 ```
 
 ## About
 
-A small indie game for guessing words with friends.
-
-## Terminal Input
-
-This version allows for terminal input for the word and hint, streamlining the gameplay experience.
+A small indie game for guessing words with friends, You can also play single player!
 
 ## Contributing
 
