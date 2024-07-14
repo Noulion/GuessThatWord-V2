@@ -22,7 +22,6 @@ def main():
                 time.sleep(2.5)
                 sys('cls')
                 return start_menu()
-                break
                 
         
             elif word_input == 'g':
@@ -30,7 +29,6 @@ def main():
                 time.sleep(2.3)
                 sys('cls')
                 return start_menu()
-                break
     
             elif word_input == '': 
                 print('\n   Blank isnt a word.\n')
@@ -78,7 +76,6 @@ def start_menu():
             sys("cls")
             time.sleep(0.045)
             return singleplayer.start_menu2()
-            break
         elif option_choose == '3':
             time.sleep(0.045)
             break
