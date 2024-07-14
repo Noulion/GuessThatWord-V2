@@ -38,14 +38,12 @@ def singleplayer():
                     time.sleep(2.3)
                     sys('cls')
                     return singleplayer()
-                    break
 
                 elif word_input == 'x':
                     print(css(f"\n   The word was {word}, exiting...\n", 'light_red')) 
                     time.sleep(2.3)
                     sys('cls')
                     return start_menu2()
-                    break
     
                 elif word_input == '': 
                     print('\n   Blank isnt a word.')
@@ -221,8 +219,7 @@ def start_menu2():
         elif option_choose == '2':
             sys('cls')
             time.sleep(0.045)
-            return main.start_menu()
-            break
+            return main.start_menu()  
         else:
             sys('cls')
             return start_menu2()
