@@ -3,10 +3,6 @@
 
 A small indie game where the goal is to guess the word given by the other player!
 
-## Project Structure
-
-- **GuessThatWordV2.py**: The main script for the game.
-
 ## Getting Started
 
 To play the game, clone the repository and run the `GuessThatWordV2_Runfile.py` script using Python.
