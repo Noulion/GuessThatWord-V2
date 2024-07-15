@@ -1,11 +1,10 @@
-```markdown
-# Guess That Word V2
+Guess That Word V2
 
-A small indie game where the goal is to guess the word given by the other player!
+* A small indie game where the goal is to guess the word given by the other player!
 
-## Getting Started
+Getting Started
 
-To play the game, clone the repository and run the `GuessThatWordV2_Runfile.py` script using Python.
+* To play the game, clone the repository and run the *GuessThatWordV2_Runfile.py* script using Python.
 
 ```bash
 git clone https://github.com/Noulion/GuessThatWord-V2.git
@@ -19,7 +18,7 @@ A small indie game for guessing words with friends, You can also play single pla
 
 ## Contributing
 
-This project is open for contributions. Feel free to fork the repository, make your changes, and submit a pull request.
+Hello!, You can freely add words in singleplayer.py`. No need to fork the file, I'll be adding words on my own! :)
 
 ## License
 
