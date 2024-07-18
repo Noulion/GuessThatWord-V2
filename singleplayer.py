@@ -30,7 +30,7 @@ def singleplayer():
                     time.sleep(2.5)
                     sys('cls')
                     return singleplayer()
-                    break
+                    
                 
         
                 elif word_input == 'g':
