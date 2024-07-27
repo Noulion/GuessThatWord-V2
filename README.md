@@ -4,12 +4,12 @@ Guess That Word V2
 
 Getting Started
 
-* To play the game, clone the repository and run the *GuessThatWordV2_Runfile.py* script using Python.
+* To play the game, clone the repository and run the *main.py* script using Python.
 
 ```bash
 git clone https://github.com/Noulion/GuessThatWord-V2.git
 cd GuessThatWord-V2
-python GuessThatWordV2_Runfile.py
+python main.py
 ```
 
 ## About
