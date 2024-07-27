@@ -82,3 +82,6 @@ def start_menu():
         else:
             sys('cls')
             return start_menu()
+            
+if __name__ == "__main__":
+    start_menu()
